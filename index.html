@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Grace Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="homestyle.css" />
+    <script src="main.js"></script>
+    <!-- compiled and minified css link-->
+    <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <!-- jquery library-->
+    <script 
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" >
+    </script>
+    <!-- latest compiled Javascript-->
+    <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+    <!-- adding Font Awesome icons-->
+    <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+</head>
+<body>
+    <header class="header-one">
+        <!-- Start of Top bar-->
+                <!-- beginning of top row-->
+                <div class = "row">
+                    <div class = "col-md-6 col-sm-6">
+                        <div class= "topbar-left">
+                            <ul class="list-inline">
+                               <li> 
+                                   <a href="#">
+                                        <i class = "fa fa-envelope">
+                                        </i>
+                                        info@smartdocs.com
+                                    </a> 
+                                </li> 
+                               <li>
+                                    <a href="#">
+                                        <i class = "fa fa-phone">
+                                        </i>
+                                        +234-703-123-4567
+                                    </a> 
+                                </li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class = "col-md-6 col-sm-6">
+                    	<div class="quote-button">
+							<a href="contact.html" class="quote-btn" title="Quick view" data-toggle="modal" data-target="#quoteModal"><b>GET A QUOTE</b></a>
+						</div>                   	                                        
+                        <div class= "top-social">
+                            <ul class= "list-inline"> <!--removes the default list style from the list item-->
+                                <li>
+                                    <a href="#"> <i class = "fa fa-skype"></i>
+                                    </a>  
+                                </li>
+                                <li>
+                                    <a href="#"> <i class = "fa fa-pinterest"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class = "fa fa-google"></i>
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a href="#"> <i class = "fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class = "fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                                            
+                    </div>
+                </div> 
+                <!-- end of top row-->
+            
+        <!-- End of Top Bar-->
+        <!-- Start of header area-->
+        <div id = "sticker" class = "header-area hidden-xs">
+            
+                <div class = "row">
+                    <!--start of logo-->
+                    <div class = "col-md-3 col-sm-3">
+                        <div class ="logo">
+                            <a class= "navbar-brand page-scroll sticky-logo" href="index.html">
+                                <img src="images/smart.png" alt="company logo">
+                            </a>    
+                        </div>
+                    </div>
+                    <!--end of logo-->
+                    <!-- Start of menu-->
+                    <div class = "col-md-9 col-sm-9 ">
+                    	<nav class ="navbar navbar-default">
+                            <div class = "collapse navbar-collapse" id= "navbar-example">
+                                <div class = "main-menu">
+                                    <ul class = "nav navbar-nav navbar-right">
+                                        <!-- Home Menu-->
+                                        <li>
+                                            <a class = "pagess" href="index.html">
+                                                Home
+                                            </a>
+                                            
+                                        </li>
+                                        <!--End of Home Menu-->
+                                        <!--About Us Menu-->
+                                        <li>
+                                            <a class = "pagess" href="index.html">
+                                                About Us
+                                            </a>
+                                       
+                                        </li>
+                                        <!--End of About Us Menu--> 
+                                         <!--Services Menu-->
+                                         <li>
+                                            <a class = "pagess" href="#Ourservices">
+                                                Services
+                                            </a>
+                                          
+                                        </li>
+                                        <!--End of Services Menu--> 
+                                         <!--Projects Menu-->
+                                         <li>
+                                            <a class = "pagess" href="index.html">
+                                                Projects
+                                            </a>
+                                         
+                                        </li>
+                                        <!--End of Projects Menu--> 
+                                         <!--Blog Menu-->
+                                         <li>
+                                            <a class = "pagess" href="index.html">
+                                                Blog
+                                            </a>
+                                         
+                                        </li>
+                                        <!--End of Blog Menu--> 
+                                        <!--Contacts Menu-->
+                                        <li>
+                                            <a class = "pagess" href="index.html">
+                                                Contacts
+                                            </a>
+                                        </li>
+                                        <!--End Contact Menu--> 
+                                        <li>
+                                        	<button type="button" class="btn btn-primary"><span class= "glyphicon glyphicon-search"></span> 
+                                        	</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <!-- End of Main Menu-->
+                    </div>
+                </div>
+            <!--End of header area-->
+    </header> 
+    <!-- End of header-->  
+    <!--Beginning of Slider-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  		<!-- Indicators -->
+  		<ol class="carousel-indicators">
+    		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    		<li data-target="#myCarousel" data-slide-to="1"></li>
+  		</ol>
+
+  		<!-- Wrapper for slides -->
+  		<div class="carousel-inner">
+    		<div class="item active">
+      			<img src="images/docsedited.jpg" alt="Doctors"> 
+      			<div class="carousel-caption">
+      				<p> A consultancy firm provides professional advice. </p>
+      				<h2> THE MOST PRESTIGEOUS <p>BUSINESS CONSULTING FIRM </p> </h3>
+      				<ul class="list-inline">
+      					<li>
+      						<button type="button" class="btn btn-primary">
+      							OUR SERVICES
+      						</button>
+      					</li>
+      					<li>
+      						<button type="button" class="btn btn-primary">
+      							CONTACT US
+      						</button>
+      					</li>
+      				</ul>
+      			</div>  
+    		</div>
+    		
+    		<div class="item">
+      			<img src="images/moredocsedited.jpg" alt="Chicago">
+    		</div>
+  		</div>
+
+  		<!-- Left and right controls -->
+  		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    		<span class="glyphicon glyphicon-chevron-left"></span>
+   			<span class="sr-only">Previous</span>
+  		</a>
+  		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+    		<span class="glyphicon glyphicon-chevron-right"></span>
+    		<span class="sr-only">Next</span>
+  		</a>
+	</div>
+	
+	<!-- Main Pager-->
+	
+		<div class ="row">
+			<div class= "col-sm-12 col-md-12">
+				<div class= "section-headline text-center"> <!-- To put the text at the center of the container-->
+					<h3> World digital solutions for 
+						<span class = "color"> Smart Doctors</span>
+					 </h3>
+					<p> Our consultants opt in to the projects they genuinely want to work on, committing wholeheartedly to delivering.</p>	
+				</div>
+			</div>
+		</div>
+		<div class = "row"> 
+			<div class= "col-md-3 col-sm-6 col-xs-12"> <!--This set a grid for md(small laptop), sm(for tablets), xs(for phone screen)-->
+				<div class = "well text-center">
+					<div class = "well-icon">
+						<a href="#">
+							<i class= "fa fa-linode fa-4x"></i>
+						</a>
+					</div>
+					<div class = "well-content">
+						<h4> Expert Advisor </h4>
+						<p> Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet. </p>
+					</div>
+				</div>
+			</div>
+			<!-- well 2-->
+			<div class= "col-md-3 col-sm-6 col-xs-12">
+				<div class = "well text-center">
+					<div class = "well-icon">
+						<a href="#">
+							<i class= "fa fa-wpexplorer fa-4x fa-spin"></i>
+						</a>
+					</div>
+					<div class = "well-content">
+						<h4> Medical Reasearch </h4>
+						<p> Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet. </p>
+					</div>
+				</div>
+			</div>
+			<!--well 3-->
+			<div class= "col-md-3 col-sm-6 col-xs-12">
+				<div class = "well text-center">
+					<div class = "well-icon">
+						<a href="#">
+							<i class= "fa fa-connectdevelop fa-4x fa-spin"></i>
+						</a>
+					</div>
+					<div class = "well-content">
+						<h4> Medical Investment </h4>
+						<p> Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet. </p>
+					</div>
+				</div>
+			</div>
+			<!--well 4-->
+			<div class= "col-md-3 col-sm-6 col-xs-12">
+				<div class = "well text-center">
+					<div class = "well-icon">
+						<a href="#">
+							<i class= "fa fa-wechat fa-4x"></i>
+						</a>
+					</div>
+					<div class = "well-content">
+						<h4> Online Consultation </h4>
+						<p> Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	
+	<!--Company Details-->
+	<div class="about">
+	
+		<div class = "row">
+			<div class = "col-md-6">
+				<h4 class="text">The Present Most Prestigious
+					<span class="color"> Medical Consulting Firm </span>
+					In the World.
+				</h4>
+
+				<p class= "words">The phrasal sequence of the Lorem Ipsum text is now so widespread and commonplace that many DTP programmes can generate dummy text using the starting sequence "Lorem ipsum". Fortunately, the phrase 'Lorem Ipsum' is now recognized by electronic pre-press systems and, when found, an alarm can be raised.</p>
+
+				<div class = "details">
+					<div class = "certcompany">
+						<div class = "icon">
+							<a href="#">
+								<i class= "fa fa-dribbble"></i>
+							</a>
+							<h5>Certified Company</h5>
+						</div>
+						<p>The phrasal sequence of the Lorem Ipsum text is now so widespread</p>
+					</div>	
+
+					<div class = "certcompany2">
+						<div class = "icon">
+							<a href="#">
+								<i class= "fa fa-angellist"></i>
+							</a>
+							<h5>Our Experience</h5>
+						</div>
+						<p>The phrasal sequence of the Lorem Ipsum text is now so widespread</p>
+					</div>	
+
+					<div class = "col-sm-6"></div>				
+				</div>
+
+
+			</div>
+			<div class = "col-md-6">
+				<div class='people-image'>
+					<img src="images/smartdoc.jpg" alt="ab people"></img>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Our Services-->
+	<div class = "service1">
+		<div class= "row">
+			<div class = "col-md-12 col-sm-12">
+				<div class = "section-headline text-center">
+					<h3 id= "Ourservices">
+						Our <span class="color"> Services </span>
+					</h3>
+					<p> We ensure patients are given immediate attention and treated with automost care. Our pool is full of expertraites that specializes in dealing with injuries. </p>	
+				</div>			
+			</div>
+		</div>
+	</div>
+	<!-- Our Services'ends-->
+	<!-- Our Services squares-->
+	<div class = "row">
+		<!--Square 1-->
+		<div class = "col-md-4 col-sm-4">
+			<div class = "square text-center">
+				<div class = "square-content">
+						<h4>Medical Consultation</h4>
+						<p>Our independent consultants, free from the internal demands of traditional firms, can focus.</p>
+				</div>
+			</div>
+		</div>
+
+		<!--Square 2-->
+		<div class = "col-md-4 col-sm-4">
+			<div class = "square text-center">
+				<div class = "square-content">
+						<h4>Online Collaboration</h4>
+						<p>Our independent consultants, free from the internal demands of traditional firms, can focus.</p>
+				</div>
+			</div>
+		</div>
+
+		<!--Square 3-->
+		<div class = "col-md-4 col-sm-4">
+			<div class = "square text-center">
+				<div class = "square-content">
+						<h4>Information Center</h4>
+						<p>Our independent consultants, free from the internal demands of traditional firms, can focus.</p>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<!-- Square row 2-->
+	<div class = "service2">
+		<div class = "row">
+		<!--Square 4-->
+			<div class = "col-md-4 col-sm-4">
+				<div class = "square text-center">
+					<div class = "square-content">
+						<h4>Medical Diagnosis</h4>
+						<p>Our independent consultants, free from the internal demands of traditional firms, can focus.</p>
+					</div>
+				</div>
+			</div>
+
+		<!--Square 5-->
+			<div class = "col-md-4 col-sm-4">
+				<div class = "square text-center">
+					<div class = "square-content">
+						<h4>Community Service</h4>
+						<p>Our independent consultants, free from the internal demands of traditional firms, can focus.</p>
+					</div>
+				</div>
+			</div>
+
+		<!--Square 6-->
+			<div class = "col-md-4 col-sm-4">
+				<div class = "square text-center">
+					<div class = "square-content">
+						<h4>Doctor Patient Interaction</h4>
+						<p>Our independent consultants, free from the internal demands of traditional firms, can focus.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Countdown Timer-->
+
+	<div class = "countdown">
+		<div class= "row">
+			<!-- first timer-->
+			<div class = "col-md-3 col-sm-3">
+				<div class = "timer text-center">
+					<h4> 5123 </h4>
+					<p> Happy Countdown </p>
+				</div>
+			</div>
+
+			<!-- second timer-->
+			<div class = "col-md-3 col-sm-3">
+				<div class = "timer text-center">
+					<h4> 5123 </h4>
+					<p> Happy Countdown </p>
+				</div>
+			</div>
+
+			<!-- third timer-->
+			<div class = "col-md-3 col-sm-3">
+				<div class = "timer text-center">
+					<h4> 5123 </h4>
+					<p> Happy Countdown </p>
+				</div>
+			</div>
+
+			<!-- fourth timer-->
+			<div class = "col-md-3 col-sm-3">
+				<div class = "timer text-center">
+					<h4> 5123 </h4>
+					<p> Happy Countdown </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of Countdown Timer-->
+
+	<!-- Beginning of Footer-->
+	<footer class = "footer-one">
+		<div class = "row">
+			<div class="col-sm-12 col-md-12 text-center">
+				<p>Copyright © 2018 Gracefulibk All Rights Reserved</p>
+			</div>
+		</div>
+	</footer>
+	<!-- End of Footer-->
+
+</body>
+
+</html>
